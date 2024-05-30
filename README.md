@@ -3,10 +3,11 @@
 
 ## Overview
 
-Welcome to my internship project repository at CodeSoft! During my internship, I completed two main tasks:
+Welcome to my internship project repository at CodeSoft! During my internship, I completed three main tasks:
 
 1. ATM Interface
 2. Guess the Number Game
+3. Student Grade Calculator
 
 This README file provides an overview of each task, how to set up and run the programs, and additional details necessary for understanding and using the applications.
 
@@ -80,6 +81,33 @@ The Guess the Number Game is an interactive console-based Java game where the pl
 - The game continues until the player guesses the correct number.
 - The number of attempts is displayed at the end.
 
+### 3. Student Grade Calculator
+
+The Student Grade Calculator is a console-based Java application that calculates and displays the final grade of a student based on their scores in various subjects.
+
+#### How to Run
+
+1. Navigate to the `student-grade-calculator` directory:
+    ```sh
+    cd student-grade-calculator
+    ```
+
+2. Compile the Java program:
+    ```sh
+    javac StudentGradeCalculator.java
+    ```
+
+3. Run the program:
+    ```sh
+    java StudentGradeCalculator
+    ```
+
+#### Features
+
+- Input student names and their scores for various subjects.
+- Calculate the average score.
+- Display the final grade based on the average score.
+
 ## Setup Requirements
 
 - Java Development Kit (JDK)
@@ -91,4 +119,6 @@ If you have any suggestions or improvements, feel free to create a pull request 
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+---
 
